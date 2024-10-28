@@ -183,6 +183,10 @@ fieldset {
   box-sizing: border-box;
 }
 
+fieldset:hover {
+  stroke: #000;
+}
+
 fieldset label {
   width: 104px;
   height: 32px;
@@ -210,4 +214,7 @@ fieldset label {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+.form button[type='submit']:hover {
+  background-color: #6c8cff;
 }
